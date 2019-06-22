@@ -1,0 +1,545 @@
+    1  python -V
+    2  python
+    3  python -V
+    4  exit
+    5  python -V
+    6  pwd
+    7  ll
+    8  python -V
+    9  pwd
+   10  ls
+   11  mkdir projects
+   12  ls
+   13  ll
+   14  cd projects/
+   15  mkdir learning.python
+   16  ls
+   17  cd learning.python/
+   18  pwd
+   19  sudo yum groupinstall 'Development Tools' -y
+   20  which pip
+   21  python -V
+   22  which pip
+   23  pip --version
+   24  pwd
+   25  ls
+   26  sudo pip install virtualenv
+   27  pip --version
+   28  pip
+   29  virtualenv 
+   30  cd projects/learning.python/
+   31  which python
+   32  virtualenv -p /opt/rh/rh-python36 .lpvenv
+   33  cd /etc/yum.repos.d/
+   34  ll
+   35   cd 
+   36  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   37  sudo yum install ./google-chrome-stable_current_*.rpm -y
+   38  more /etc/redhat-release 
+   39  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   40  ll
+   41  sudo yum -y install epel-release-latest-7.noarch.rpm
+   42  more /etc/yum.repos.d/
+   43  ll  /etc/yum.repos.d/
+   44  sudo yum install centos-release-scl y
+   45  sudo yum install rh-python36 -y
+   46  python -v
+   47  python -V
+   48  scl enable rh-python36 bash
+   49  python -V
+   50  python -v
+   51  pip --version
+   52  which pip
+   53  scl enable rh-python36 bash
+   54  cd 
+   55  su -
+   56  yum -y update
+   57  su -
+   58  ip a
+   59  which pip
+   60  which python
+   61  python -V
+   62  nmap
+   63  yum -y install nmap
+   64  sudo yum -y install nmap
+   65  nmap -sP 192.168.0.0/24
+   66  lp
+   67  pwd
+   68  wget http://download.documentfoundation.org/libreoffice/stable/6.1.3/rpm/x86_64/LibreOffice_6.1.3_Linux_x86-64_rpm.tar.gz
+   69  dig
+   70  systemctl reboot
+   71  ps aux | grep 14668
+   72  kill -9 14668
+   73  which curl
+   74  curl cheat.sh
+   75  curl cheat.sh\ls
+   76  curl cheat.sh/ls
+   77  curl cheat.sh/grep
+   78  curl cheat.sh/python
+   79  scl enable rh-python36 
+   80  scl enable rh-python36 bash
+   81  ping 192.168.0.27
+   82  wget https://github.com/sivel/speedtest-cli/archive/master.zip
+   83  $ unzip master.zip 
+   84  ll
+   85  $ unzip master.zip 
+   86  wget https://github.com/sivel/speedtest-cli/archive/master.zip
+   87  ll
+   88  unzip master.zip.1
+   89  ll
+   90  cd speedtest-cli-master/
+   91  ll
+   92  ./ speedtest.py 
+   93  pwd
+   94  ll
+   95  chmod 755 speedtest_cli.py 
+   96  cd ../
+   97  ll
+   98  ll master.zip
+   99  uzip master.zip
+  100  unzip master.zip
+  101  cd speedtest-cli-master/tests/
+  102  ll
+  103  cd ../
+  104  ll
+  105  cat README.rst 
+  106  ll
+  107  ./ speedtest.py 
+  108  cat speedtest-cli.1 
+  109  cd ../
+  110  ll
+  111  rm -rf speedtest-cli-master/*
+  112  ll
+  113  rm -rf speedtest-cli-master/
+  114  ll
+  115  rm -rf master.zip *
+  116  ll
+  117  ll Downloads/
+  118  ll
+  119  pwd
+  120  mkdir Documents
+  121  mkdir Pictures
+  122  ll
+  123  mkdir Videos
+  124  ll
+  125  systemctl rebbot
+  126  systemctl reboot
+  127  su -
+  128  sudo yum -y update
+  129  pwd
+  130  ll
+  131  cd Documents/
+  132  ll
+  133  vi acloud
+  134  ll
+  135  chmod +x acloud 
+  136  rm :!
+  137  ll
+  138  bash acloud 
+  139  vi acloud
+  140  ll
+  141  rm acloud 
+  142  ll
+  143  gedit cloudgurus101.txt
+  144  ll
+  145  gedit cloudgurus101.txt
+  146  systemctl reboot
+  147  echo $logname
+  148  logname
+  149  w
+  150  git --version
+  151  pwd
+  152  ll
+  153  mkdir Devops
+  154  cd Devops/
+  155  echo "Hello world"  >> 1.txt
+  156  echo "Welcome to Phalanges Tech"  >> 2.txt
+  157  ll
+  158  git init 
+  159  ll -a
+  160  ll .git/
+  161  ll
+  162  git status 
+  163  cd 
+  164  git status 
+  165  cd -
+  166  git status 
+  167  git add .
+  168  git status 
+  169  git commit -m "first commit adding 1.txt and 2.txt"
+  170  git status 
+  171  ll
+  172  echo "Welcome on board"  >> 3.txt
+  173  git status
+  174  vi 2.txt 
+  175  git status
+  176  git remote add origin  https://github.com/brunobrunt/Devops-course.git
+  177  git status 
+  178  git push --help
+  179  git push origin master
+  180  git status 
+  181  git add 2.txt
+  182  git status 
+  183  git commit -m "Updated 2.txt"
+  184  git status 
+  185  git push origin master
+  186  git status 
+  187  vi 2.txt 
+  188  git commit -m "appended 2.txt"
+  189  git status 
+  190  git push origin master 
+  191  git status 
+  192  git commit -a 2.txt
+  193  git add 2.txt
+  194  git commit -m "appended 2.txt"
+  195  git status
+  196  git push origin master
+  197  git add 2.txt
+  198  git commit -m "appended 2.txt"
+  199  git status
+  200  git add 3.txt
+  201  git commit -m "third commit 3.txt"
+  202  git push origin master 
+  203  git status
+  204  mkdir devopstest
+  205  cd devopstest/
+  206  git clone https://github.com/brunobrunt/Devops-course.git
+  207  ll
+  208  cd ..
+  209  ll
+  210  cd devopstest/Devops-course/
+  211  ll
+  212  pwd
+  213  ll
+  214  echo  "This is a text file for clone"  > 4.txt
+  215  ll
+  216  history 
+  217  ll
+  218  git add .
+  219  git commit -m "adding clone file."
+  220  git status 
+  221  git push origin master 
+  222  ll
+  223  pwd
+  224  ll
+  225  pwd
+  226  echo "This is file 5"  > 5.txt
+  227  ll
+  228  git add .
+  229  git commit -m "adding the 5th file"
+  230  git push origin master 
+  231  history  | grep clone
+  232  history > hist.txt
+  233  ll
+  234  history 
+  235  ll
+  236  git add .
+  237  git commit -m "Adding the history file"
+  238  git push origin master 
+  239  ll
+  240  cd
+  241  pwd
+  242  ll
+  243  cd Devops/
+  244  ll
+  245  git pull origin master 
+  246  ll
+  247  git pull origin master 
+  248  ll
+  249  sudo yum -y update
+  250  ll
+  251  git pull origin master 
+  252  ll
+  253  git branch 
+  254  git branch features1
+  255  git branch 
+  256  ll
+  257  git checkout features1 
+  258  ll
+  259  git checkout master 
+  260  ll
+  261  git checkout features1 
+  262  systemctl reboot 
+  263  git branch 
+  264  git diff 5b341a647731854e036e18c86b435e72bdb65a14
+  265  git diff 5b341a647731854e036e18c86b435e72bdb65a14  1d77ed3451cbc8672237111b3034492dbfcfb252
+  266  cd ../
+  267  ll
+  268  cd Devops/
+  269  ll
+  270  rm -rf devopstest/
+  271  ll
+  272  git pull origin master 
+  273  ll
+  274  ll -h
+  275  free hist.txt 
+  276  pwd
+  277  ll -h
+  278  git pull origin master 
+  279  ll -h
+  280  git branch 
+  281  git branch -D features1 
+  282  git checkout master 
+  283  git branch -D features1 
+  284  git branch feature1
+  285  ll
+  286  git branch 
+  287  git checkout feature1 
+  288  ll
+  289  git checkout master 
+  290  ll
+  291  git pull origin master 
+  292  ll
+  293  git checkout feature1 
+  294  ll
+  295  git branch 
+  296  ll
+  297  git push origin feature1 
+  298  ll
+  299  git branch 
+  300  git checkout master 
+  301  git branch 
+  302  git push origin feature1 
+  303  ll
+  304  git checkout feature1 
+  305  ll
+  306  git status 
+  307  git pull origin feature1 
+  308  ll
+  309  git branch 
+  310  git checkout master 
+  311  ll
+  312  git branch 
+  313  git branch feature1 
+  314  git checkout feature1 
+  315  ll
+  316  git merge master 
+  317  ll
+  318  git branch 
+  319  ll
+  320  git branch 
+  321  ll
+  322  git log 
+  323  ll
+  324  git branch 
+  325  ll
+  326  git branch 
+  327  echo "Looking at branches"  >>6.txt 
+  328  git add .
+  329  git commit -m "Updating feature1 branch"
+  330  git status 
+  331  git branch 
+  332  git checkout master 
+  333  git status 
+  334  ll
+  335  ll -h
+  336  git branch 
+  337  git checkout feature1 
+  338  ll
+  339  git push origin feature1 
+  340  git status 
+  341  git branch 
+  342  git checkout master 
+  343  ll
+  344  git branch 
+  345  git pull origin feature1 
+  346  git branch 
+  347  ll
+  348  cat 6.txt 
+  349  git branch 
+  350  git add .
+  351  git commit 
+  352  git merge feature1 
+  353  git branch 
+  354  ll
+  355  git branch 
+  356  git pull origin feature1 
+  357  git branch 
+  358  git checkout feature1 
+  359  ll
+  360  git checkout feature1 
+  361  git branch 
+  362  git branch 
+  363  git push origin master 
+  364  git branch 
+  365  ll
+  366  history >> hist.txt 
+  367  git status 
+  368  git branch 
+  369  git add hist.txt
+  370  git commit -m "Updated hist.txt"
+  371  git status 
+  372  git branch 
+  373  git push origin feature1 
+  374  git branch 
+  375  git checkout master 
+  376  git branch 
+  377  git pull origin feature1 
+  378  git status 
+  379  git branch 
+  380  git checkout feature1 
+  381  git status 
+  382  git branch 
+  383  git status 
+  384  git checkout master 
+  385  git push origin feature1 
+  386  git pull origin feature1 
+  387  git log  | less
+  388  git status 
+  389  ll
+  390  tail hist.txt 
+  391  git status 
+  392  git branch 
+  393  git pull origin feature1 
+  394  git branch 
+  395  git pull origin feature1 
+  396  git branch 
+  397  git log 
+  398  git branch 
+  399  git checkout feature1 
+  400  git log 
+  401  git branch 
+  402  echo "This is stashing"  > 7.txt
+  403  git status 
+  404  git checkout master 
+  405  ll
+  406  git status 
+  407  git checkout feature1 
+  408  ll
+  409  git stash 7.txt
+  410  git branch 
+  411  git add .
+  412  git status 
+  413  git checkout master 
+  414  ll
+  415  git checkout feature1 
+  416  cat 4.txt 
+  417  cat 5.txt 
+  418  nano 5.txt 
+  419  git branch 
+  420  git checkout master 
+  421  cat 5.txt 
+  422  git checkout feature1 
+  423  git stash 
+  424  git checkout master 
+  425  ll
+  426  git status 
+  427  git pull origin feature1 
+  428  git checkout feature1 
+  429  ll
+  430  git stash pop 
+  431  ll
+  432  git checkout master 
+  433  ll
+  434  git checkout feature1 
+  435  git stash 
+  436  ll
+  437  ls
+  438  git status 
+  439  git stash pop 
+  440  ll
+  441  git add .
+  442  git commit -m "comminting my stash"
+  443  git status 
+  444  ll
+  445  git checkout master 
+  446  ll
+  447  git checkout feature1 
+  448  git status 
+  449  git log 
+  450  git status 
+  451  ll
+  452  echo "checking out diff command"  >>4.txt 
+  453  git status 
+  454  git diff HEAD
+  455  systemctl reboot 
+  456  ll
+  457  cd Devops/
+  458  ll
+  459  git status 
+  460  cd ..
+  461  pwd
+  462  ll
+  463  mkdir Devtest
+  464  ll
+  465  cd Devtest/
+  466  git clone https://github.com/brunobrunt/Devops-course.git
+  467  ll
+  468  cd Devops-course/
+  469  ll
+  470  echo "This is real"> 6.txt
+  471  ll
+  472  git add 6.txt
+  473  git commit -m "Commiting the sixth file to file system"
+  474  git status 
+  475  git push origin master 
+  476  pwd
+  477  ll
+  478  history >> hist.txt 
+  479  ll
+  480  git add .
+  481  git commit -m "adding more data to hist.txt"
+  482  git push origin master 
+  483  ll
+  484  ll -h
+  485  cat 6.txt 
+  486  git branch 
+  487  pwd
+  488  ll
+  489  mkdir testsamp
+  490  cd testsamp/
+  491  ll
+  492  git init 
+  493  vi script1.txt
+  494  ll
+  495  chmod +x script1.txt 
+  496  ll
+  497  ./ script1.txt 
+  498  ll
+  499  ./ script1.txt 
+  500  ll
+  501  bash script1.txt 
+  502  echo $PATH
+  503  . script1.txt 
+  504  git status 
+  505  git add script1.txt
+  506  git status 
+  507  git commit -m "Adding my first script"
+  508  git status 
+  509  git branch 
+  510  git push origin master 
+  511  git status 
+  512  vi script1.txt 
+  513  ll
+  514  . script1.txt 
+  515  git status 
+  516  git add .
+  517  git status 
+  518  git commit -m "Adding my first script"
+  519  git remote add origin https://github.com/brunobrunt/testsamp.git
+  520  git status
+  521  git push origin master 
+  522  git branch 
+  523  git status 
+  524  ll
+  525  vi script1.txt 
+  526  git status 
+  527  git add.
+  528  git add .
+  529  git commit -m "Added a newline"
+  530  git status 
+  531  git push origin master 
+  532  ./ script1.txt 
+  533  . script1.txt 
+  534  my name is whoami
+  535  "my name is whoami"
+  536  echo "My name is" $LOGNAME
+  537  vi script1.txt 
+  538  git status 
+  539  git add .
+  540  git commit -m "added ad 3rd line"
+  541  git status 
+  542  git push origin master 
+  543  . script1.txt 
+  544  history > histoey.txt
+  545  history > history.txt

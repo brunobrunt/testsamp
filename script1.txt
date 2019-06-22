@@ -2,4 +2,4 @@
 
 cat /etc/passwd
 date 
-echo "My name is" whoami.
+echo "My name is" $LOGNAME.

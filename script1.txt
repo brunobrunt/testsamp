@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
 cat /etc/passwd
 date 
 echo "My name is" $LOGNAME.
+pinky
